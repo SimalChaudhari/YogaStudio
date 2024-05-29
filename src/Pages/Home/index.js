@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Layout from "../../Components/Layout";
-import { CreativeDemos, CustomerBenefits, HeroSection } from "../../Components/index";
+import { AI_Helper, AI_Powered, CreativeDemos, CustomerBenefits, Elementor, HeroSection, InfoPortal, PremiumPlugins } from "../../Components/index";
 import hero1 from "../../assets/images/1.jpg";
 import hero2 from "../../assets/images/6.jpg";
 // import hero3 from "../../assets/images/2.jpg";
@@ -121,6 +121,11 @@ const HomePage = () => {
       <div>
         <CreativeDemos className=""/>
         <CustomerBenefits className=""/>
+        <AI_Powered className=""/>
+        <AI_Helper className=""/>
+        <Elementor className=""/>
+        <PremiumPlugins className=""/>
+        <InfoPortal className=""/>
       </div>
     </Layout>
   );
